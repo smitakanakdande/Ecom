@@ -83,8 +83,9 @@ public class HooksClass {
 		BufferedImage img = ashot.shootingStrategy(ShootingStrategies.viewportPasting(2000))
 		.takeScreenshot(HooksClass.driver).getImage();
 		String baseDir= System.getProperty("user.dir");
-		ImageIO.write(img,"png",
-		new File(baseDir + "\\src\\main\\resources\\FailedTestScreenShot\\" + date +".png"));
+
+		ImageIO.write(img,"jpg",
+		new File(baseDir + "\\src\\main\\resources\\FailedTestScreenShot\\" + date +".jpg"));
 		}
 		}
 		catch (IOException e)
