@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 
 import com.bellatrix.pages.BlogPage;
+import com.bellatrix.utilities.FileUtil;
 import com.bellatrix.utilities.WaitFor;
 
 import io.cucumber.java.en.Given;
@@ -13,6 +14,7 @@ import io.cucumber.java.en.When;
 
 public class BlogStepDef {
 	WaitFor wait = new WaitFor();
+	FileUtil util = new FileUtil();
 	BlogPage page = PageFactory.initElements(HooksClass.driver, BlogPage.class);
 	private static final Logger LOG = Logger.getLogger(BlogStepDef.class);
 	@Given("Click on blog page")
