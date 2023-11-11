@@ -84,8 +84,8 @@ public class HooksClass {
 		.takeScreenshot(HooksClass.driver).getImage();
 		String baseDir= System.getProperty("user.dir");
 
-		ImageIO.write(img,"jpg",
-		new File(baseDir + "\\src\\main\\resources\\FailedTestScreenShot\\" + date +".jpg"));
+		ImageIO.write(img,"png",
+		new File(baseDir + "\\src\\main\\resources\\FailedTestScreenShot\\" + dt +".png"));
 		}
 		}
 		catch (IOException e)

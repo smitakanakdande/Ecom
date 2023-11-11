@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Nov 10 10:54:57 IST 2023</td>
+<td>Started on:</td><td>Sat Nov 11 23:45:53 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>60 seconds (60790 ms)</td>
+<tr><td>Total time:</td><td>29 seconds (29885 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,16 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runner.FeatureRunnerClass.runScenario()'><b>runScenario</b><br>Test class: runner.FeatureRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify click on add to cart btn related product quantity should be display in Cart", "Cart Page Fuctionality"</td>
+<td title='runner.FeatureRunnerClass.runScenario()'><b>runScenario</b><br>Test class: runner.FeatureRunnerClass<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify click on add to cart btn related product should be display in cart", "Cart Page Fuctionality"</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#quantity_654dbe3fee130&quot;}
   (Session info: chrome=119.0.6045.124)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ecaf1f491f4742f68aaa96269415aa60, findElement {using=css selector, value=input#quantity_654dbe3fee130}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\atulr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60941/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ecaf1f491f4742f68aaa96269415aa60
+Command: [35b0a064a8c9e7f027bb4735389c0b69, findElement {using=css selector, value=input#quantity_654dbe3fee130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\atulr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63160/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35b0a064a8c9e7f027bb4735389c0b69
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -105,18 +105,18 @@ Session ID: ecaf1f491f4742f68aaa96269415aa60
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
 	at com.bellatrix.pages.CartPage.prodQuantity(CartPage.java:81)
-	at com.bellatrix.stepDefination.CartStepDef.click_on_view_cart_btn_and_display_price(CartStepDef.java:104)
-	at ✽.Product quantity should display in cart(file:///C:/Users/atulr/OneDrive/Desktop/Git%20From%20Swati%20member/NewBellatrix/Bellatrix/src/test/resources/Features/Cart.feature:19)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1089407736", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1089407736'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#quantity_654dbe3fee130&quot;}
+	at com.bellatrix.stepDefination.CartStepDef.productShouldDisplayInCart(CartStepDef.java:79)
+	at ✽.Product should display in cart(file:///C:/Users/atulr/OneDrive/Desktop/Git%20As%20Host/Ecom/Bellatrix/src/test/resources/Features/Cart.feature:14)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1561668557", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1561668557'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;input#quantity_654dbe3fee130&quot;}
   (Session info: chrome=119.0.6045.124)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ecaf1f491f4742f68aaa96269415aa60, findElement {using=css selector, value=input#quantity_654dbe3fee130}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\atulr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60941}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60941/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ecaf1f491f4742f68aaa96269415aa60
+Command: [35b0a064a8c9e7f027bb4735389c0b69, findElement {using=css selector, value=input#quantity_654dbe3fee130}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.124, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\atulr\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63160}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63160/devtoo..., se:cdpVersion: 119.0.6045.124, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 35b0a064a8c9e7f027bb4735389c0b69
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -137,10 +137,10 @@ Session ID: ecaf1f491f4742f68aaa96269415aa60
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy29.getText(Unknown Source)
 	at com.bellatrix.pages.CartPage.prodQuantity(CartPage.java:81)
-	at com.bellatrix.stepDefination.CartStepDef.click_on_view_cart_btn_and_display_price(CartStepDef.java:104)
-	at ✽.Product quantity should display in cart(file:///C:/Users/atulr/OneDrive/Desktop/Git%20From%20Swati%20member/NewBellatrix/Bellatrix/src/test/resources/Features/Cart.feature:19)
+	at com.bellatrix.stepDefination.CartStepDef.productShouldDisplayInCart(CartStepDef.java:79)
+	at ✽.Product should display in cart(file:///C:/Users/atulr/OneDrive/Desktop/Git%20As%20Host/Ecom/Bellatrix/src/test/resources/Features/Cart.feature:14)
 </pre></div></td>
-<td>59</td>
+<td>29</td>
 <td>runner.FeatureRunnerClass@3568f9d2</td></tr>
 </table><p>
 </body>

@@ -1,5 +1,6 @@
 Feature: Cart Page Fuctionality
 
+
 Scenario: To verify if click on add to cart Btn then display view cart Btn
 Given Search product in search box
 When Click on add to cart btn1
@@ -11,7 +12,6 @@ When Click on add to cart btn
 And Click on View cart btn
 Then Product should display in cart
 
-@Smoke
 Scenario: To verify click on add to cart btn related product quantity should be display in Cart
 Given Search product1 in search box
 When Click on add to cart button

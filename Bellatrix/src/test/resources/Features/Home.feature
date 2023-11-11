@@ -20,6 +20,7 @@ Examples:
 |3|
 |4|
 
+
 Scenario: Dropdown list selection
 Given The user on the website with dropDown list
 When The user click on the dropDown list
